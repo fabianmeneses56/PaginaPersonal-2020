@@ -1,0 +1,146 @@
+/* FUENTES */
+
+@font-face{
+    font-family: "code";
+    src: url(./fonts/SourceCodePro-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.lateral{
+    background-color: #EBEDEF;
+    height: 100vh;
+}
+.principal{
+    background-color:#282923;
+    height: auto;
+  /*   margin-left: 225px; */
+}
+
+.barra{
+    background-color: #6D6E6A;
+    height: 50px;
+}
+.pestaña{
+   background-color: red; 
+  
+}
+#contenido p{
+    color: white;
+}
+.container h1{
+    font-family: code;
+    
+}
+#menu{
+    margin-top: 40px;
+}
+#menu a{
+    font-family: code;
+    color: black;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+#menu li{
+list-style: none;
+margin-top: 30px;
+}
+.iconos_lateral{
+    width: 20px;
+    height: 15px;
+}
+#contenido{
+   background-image: url(imgPrincipal.jpg); 
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    margin-top: 40px; 
+}
+#otro{
+   /*  background-color: blue; */
+    height: auto;
+}
+/* .numeros{
+    background-color: pink;
+    height: 200px;
+     width: 20px; 
+     margin-right: 15px; 
+} */
+.barra_numeros{
+height: auto;
+width: 30px;
+background-color:#282923;
+color: #90918B;
+}
+.dos{
+height: auto;
+background-color:#282923;
+
+}
+#todo{
+    height: auto;
+    background-color:#282923;
+}
+
+.blu{
+  /*   width: 960px; */
+    margin: 0px auto;
+    text-align: center;
+   margin-top: 300px;
+   /*  align-items: center;
+    display: grid; */
+    align-items: center;
+  font-family: code;
+  color: white;
+ 
+}
+.blu2{
+    /*   width: 960px; */
+      margin: 0px auto;
+      text-align: center;
+     margin-top: 10px;
+     /*  align-items: center;
+      display: grid; */
+      align-items: center;
+    font-family: code;
+    color: white;
+   
+  }
+.blu h1{
+    font-size: 30px;
+}
+.blu2 h1{
+    font-size: 30px;
+}
+.code1 h2{
+    color: white;
+    font-size: 16px;
+    opacity: 0.2;
+    font-weight: lighter;
+}
+.circulo>img{
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+ /*    background-size: cover; */
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.personal{
+    height: auto;
+    text-align: center !important;
+}
+.infopersonal{
+    height: auto;
+    color: white;
+    margin: 0px auto;
+    margin-top: 20px;
+    font-family: code;
+}

@@ -6,6 +6,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face{
+    font-family: "indie";
+    src: url(./fonts/IndieFlower-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 *{
@@ -156,8 +162,10 @@ background-color:#282923;
     margin-top: 50px;
     height: auto;
 }
-.tecnologias{
-    height: auto;
+.tecnologias img{
+   /*  height: auto; */
+   text-align: center;
+   margin: 0px auto;
 }
 .card:hover{
     box-shadow: 0 0 10px #EC2658;
@@ -169,6 +177,7 @@ background-color:#282923;
     color: white;
     font-family: code;
     font-size: 25px;
+   /*  text-transform: uppercase; */
 }
 .txt_function{
     color: #66D9E2;
@@ -192,4 +201,39 @@ background-color:#282923;
     color: white;
     font-family: code;
     font-size: 20px;
+}
+.if{
+    font-family: code;
+    font-size: 16px;
+    opacity: 0.5;
+    color: #EC2658; 
+}
+#frase h1{
+    color: #EC2658;
+    font-family: code;
+   font-size: 12px;
+}
+.amarillo{
+    color: #E6DB74 !important;
+}
+.verde{
+    color: #A6E22E !important;
+}
+.naranja{
+    color:#Fb971f!important ;
+}
+.blanco{
+    color: white !important;
+}
+.certificado img{
+    width: 60%;
+}
+.altura_certificado{
+height: 222px;
+}
+.redes{
+    padding: 30px;
+}
+.margen_tecnologia{
+    margin-top: 50px;
 }

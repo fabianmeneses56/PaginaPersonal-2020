@@ -22,37 +22,37 @@
               <nav>
                 <li>
                   <p class="iconlateral" >]</p>
-                  <img loading="lazy" src="./img/carpeta.png" class="iconos_lateral" alt="" /><a href="#inicio"
+                  <img src="./img/carpeta.png" class="iconos_lateral" alt="" /><a href="#inicio"
                     >INICIO</a
                   >
                 </li>
                 <li>
                   <p class="iconlateral" >]</p>
-                  <img loading="lazy" src="./img/carpeta.png" class="iconos_lateral" alt="" /><a href="#sobremi"
+                  <img src="./img/carpeta.png" class="iconos_lateral" alt="" /><a href="#sobremi"
                     >SOBRE MI</a
                   >
                 </li>
                 <li>
                   <p class="iconlateral" >]</p>
-                  <img loading="lazy" src="./img/carpeta.png" class="iconos_lateral" alt="" /><a href="#saberes"
+                  <img src="./img/carpeta.png" class="iconos_lateral" alt="" /><a href="#saberes"
                     >SABERES</a
                   >
                 </li>
                 <li>
                   <p class="iconlateral" >]</p>
-                  <img loading="lazy" src="./img/carpeta.png" class="iconos_lateral" alt="" /><a href="#estudios"
+                  <img src="./img/carpeta.png" class="iconos_lateral" alt="" /><a href="#estudios"
                     >ESTUDIOS</a
                   >
                 </li>
                 <li>
                   <p class="iconlateral">]</p>
-                  <img loading="lazy" src="./img/carpeta.png" class="iconos_lateral" alt="" /><a href="#proyectos"
+                  <img src="./img/carpeta.png" class="iconos_lateral" alt="" /><a href="#proyectos"
                     >PROYECTOS</a
                   >
                 </li>
                 <li>
                   <p class="iconlateral" >]</p>
-                  <img loading="lazy" src="./img/carpeta.png" class="iconos_lateral" alt="" /><a href="#contacto"
+                  <img src="./img/carpeta.png" class="iconos_lateral" alt="" /><a href="#contacto"
                     >CONTACTO</a
                   >
                 </li>
@@ -80,6 +80,10 @@
               <div class="barra_numeros text-center">
                 <nav>
                   <ul>
+                    <?php
+                    print("<li>1</li>");
+                    ?>
+                    
                     <li>1</li>
                     <li>2</li>
                     <li>3</li>
@@ -289,11 +293,6 @@
                     <li>210</li>
                     <li>211</li>
                     <li>212</li>
-                    <li>213</li>
-                    <li>214</li>
-                    <li>215</li>
-                    <li>216</li>
-                    <li>217</li>
                    
                     
                   </ul>
@@ -301,18 +300,15 @@
               </div>
               <a href="" id="inicio"></a>
               <div class="dos col">
-                <div class="row">
-                  <div class="code1">
-                    <h2 class="mb-1">&ltDOCTYPE html&gt</h2>
-                    <h2 class="mb-1">&lthtml lang="es"&gt</h2>
-                    <h2 class="mb-1">&lthead&gt</h2>
-                    <h2 class="mb-2">&nbsp &lt meta charset="UTF-8"&gt</h2>
-                    <h2 class="escritura mb-1">&nbsp &lt link rel="stylesheet" href="index.css"&gt <span>&#160;</span></h2>
-                    <h2 class="mb-1">&lt/head&gt</h2>
-                    <h2 class="mb-1">&ltbody&gt</h2>
-                  </div>
+                <div class="code1">
+                  <h2 class="mb-1">&ltDOCTYPE html&gt</h2>
+                  <h2 class="mb-1">&lthtml lang="es"&gt</h2>
+                  <h2 class="mb-1">&lthead&gt</h2>
+                  <h2 class="mb-2">&nbsp &lt meta charset="UTF-8"&gt</h2>
+                  <h2 class="mb-1">&nbsp &lt link rel="stylesheet" href="index.css"&gt</h2>
+                  <h2 class="mb-1">&lt/head&gt</h2>
+                  <h2 class="mb-1">&ltbody&gt</h2>
                 </div>
-                
 
                 <section id="contenido">
                   <div class="row">
@@ -331,7 +327,7 @@
                       <div class="row ">
                           <div class="personal col-12 ">
                             <div class="circulo ">
-                                <img loading="lazy" class="fotoensa" src="./img/DSC_5763.jpg" alt="">
+                                <img class="fotoensa" src="./img/DSC_5763.jpg" alt="">
                             </div>
                           </div>
                           <div class="infopersonal animacionP2 col-9">
@@ -358,30 +354,30 @@
                       </div>
 
                       <div class="tecnologias col  m-5 p-0 text-center">
-                          <img loading="lazy" src="./img/html-css.png" class="card-img-top"  alt="html y css" title="html-css">
+                          <img src="./img/html-css.png" class="card-img-top"  alt="html y css" title="html-css">
                       </div>
 
                       <div class="tecnologias col  m-5 p-0 text-center">
-                          <img loading="lazy" src="./img/mysql.svg" class="card-img-top"  alt="Mysql" title="Mysql">
+                          <img src="./img/mysql.svg" class="card-img-top"  alt="Mysql" title="Mysql">
                       </div>
 
                       <div class="tecnologias col  m-5 p-0 text-center">
-                          <img loading="lazy" src="./img/php.png" class="card-img-top"  alt="PHP" title="php">
+                          <img src="./img/php.png" class="card-img-top"  alt="PHP" title="php">
                       </div>
                       
                     </div>
 
                     <div class="row margen_tecnologia">
                       <div class="tecnologias2 col  m-5 p-0 text-center">
-                          <img loading="lazy" src="./img/js.png" class="card-img-top"  alt="javascript" title="javascript">
+                          <img src="./img/js.png" class="card-img-top"  alt="javascript" title="javascript">
                       </div>
 
                       <div class="tecnologias2 col  m-5 p-0 text-center">
-                        <img loading="lazy" src="./img/bootstrap.png" class="card-img-top"  alt="bootstrap" title="Bootstrap">
+                        <img src="./img/bootstrap.png" class="card-img-top"  alt="bootstrap" title="Bootstrap">
                       </div>
 
                       <div class="tecnologiasReact col  m-5 p-0 text-center">
-                        <img loading="lazy" src="./img/react.png" class="card-img-top"  alt="React" title="React">
+                        <img src="./img/react.png" class="card-img-top"  alt="React" title="React">
                       </div>
 
                     </div>
@@ -409,14 +405,14 @@
                         <h2 class="if">if<span class="blanco">(universidad == <span class="true">graduado</span>) {</span> </h2>
                       </div>
                       <div class="certificado mt-4">
-                        <img loading="lazy" class="animacionCerti rounded mx-auto d-block" src="./img/certificado1.PNG"   alt="Responsive image">
+                        <img class="animacionCerti rounded mx-auto d-block" src="./img/certificado1.PNG"   alt="Responsive image">
                       </div>
                       <h2 class="txt_llave mt-4">}</h2>
                       <div class="col mt-4">
                         <h2 class="if">else if<span class="blanco">(cursos == <span class="true">online</span>) {</span> </h2>
                       </div>
                       <div class="certificado mt-4">
-                        <img loading="lazy" src="./img/certificado2.PNG" class="rounded mx-auto d-block"  alt="Responsive image">
+                        <img src="./img/certificado2.PNG" class="rounded mx-auto d-block"  alt="Responsive image">
                       </div>
                       <h2 class="txt_llaveEsc">}</h2>
                       <div class="col mt-4">
@@ -429,13 +425,13 @@
                 <a href="" id="proyectos"></a>
                 <section id="proyectos ">
                   <div class="container">
-                    <div class="mt-5 ">
+                    <div class="col mt-5 ">
                       <h1 class="titulos_conocimientos">&ltProyectos elaborados/&gt_</h1>
                     </div>
                     <div class="row">
                       <div class="proyectos m-5 col p-0" >
                         <div class="card" >
-                          <img loading="lazy" src="./img/alquiler.jpeg" class="altura_certificado card-img-top" alt="..." >
+                          <img src="./img/alquiler.jpeg" class="altura_certificado card-img-top" alt="..." >
                           <div class="card-body">
                             <p class="card-text">aplicacion movil desarrollada en react native con expo,su funcionalidad
                               es gestionar el proceso de alquiler de prendas,integra base de datos con firebase.
@@ -445,7 +441,7 @@
                       </div>
                       <div class="proyectos m-5 col p-0" >
                         <div class="card" >
-                          <img loading="lazy" src="./img/moto.jpeg" class="card-img-top" alt="...">
+                          <img src="./img/moto.jpeg" class="card-img-top" alt="...">
                           <div class="card-body">
                             <p class="card-text">aplicacion movil desarrollada en Android Studio,su funcionalidad era
                               mostrar un catalogo de motos,incluia un inicio de sesion,proyecto final de 4 semestre
@@ -455,7 +451,7 @@
                       </div>
                       <div class="proyectos m-5 col p-0" >
                         <div class="card" >
-                          <img loading="lazy" src="./img/urban5.PNG" class="altura_certificado card-img-top" alt="..." >
+                          <img src="./img/urban5.PNG" class="altura_certificado card-img-top" alt="..." >
                           <div class="card-body">
                             <p class="card-text">Blog relacionado con la moda urbana,aqui se aplico todo un proceso de analisis,
                               mapa de navegacion y diseño,proyecto final para la materia de medios digitales
@@ -475,49 +471,29 @@
                     </div>
                     <div class="row mx-auto redes">
                         <div class="redes text-center">
-                          <a href="https://twitter.com/fabianmeneses56" target="_blank"><img loading="lazy" src="./img/twitter.png"  " class=" col-2" alt="Twitter" title="Twitter"></a>
-                          <a href="https://www.linkedin.com/in/edison-fabian-meneses-salamanca-7960b9185/" target="_blank"><img loading="lazy" src="./img/linkedin.png"  class="col-2" alt="linkedin" title="linkedin"></a> 
-                          <a href="https://github.com/fabianmeneses56" target="_blank"><img loading="lazy" src="./img/github.png"  class="col-2" alt="github" title="github"></a>
+                          <a href="https://twitter.com/fabianmeneses56" target="_blank"><img src="./img/twitter.png"  " class=" col-2" alt="Twitter" title="Twitter"></a>
+                          <a href="https://www.linkedin.com/in/edison-fabian-meneses-salamanca-7960b9185/" target="_blank"><img src="./img/linkedin.png"  class="col-2" alt="linkedin" title="linkedin"></a> 
+                          <a href="https://github.com/fabianmeneses56" target="_blank"><img src="./img/github.png"  class="col-2" alt="github" title="github"></a>
                         </div>
                     </div>
                 </section>
 
                 <section id="frase" class=" text-center mt-5" >
-                    <h1> &ltp&gtSI SE PUEDE IMAGINAR SE PUEDE PROGRAMAR&lt/p&gt</h1>
+                  <h1> &ltp&gtSI SE PUEDE IMAGINAR SE PUEDE PROGRAMAR&lt/p&gt</h1>
                 </section>
                
                 <div class="code1 mt-5">
                   <h2>&ltscript src="./jquery/jquery-3.5.1.min.js"&gt&lt/script&gt</h2>
                   <h2 class="mb-1">&ltscript src="./bootstrap/js/bootstrap.min.js"&gt&lt/script&gt</h2>
                   <h2 class="mb-1">&lt/body&gt</h2>
-                  <h2 class="mb-5">&lt/html&gt</h2>
+                  <h2>&lt/html&gt</h2>
                 </div>
               </div>
             </div>
           </div>
         </section>
-
         <a class="back-to-top icon animacionTop ">:</a>
-        
       </div>
-    
-      <footer class="pie row justify-content-between">
-        <div class="col-3 row">
-          <p class="iconpc">D</p>
-          <h4>linea 69, columna 1</h4>
-        </div>
-       
-          <div class=" col-2 text-center row">
-            <h4>Spaces:2</h4>
-            <h4 class="barra_baja">HTML</h4>
-          </div>
-          
-       
-        
-      </footer>
-
-      
-    
     </div>
 
     <script src="./jquery/jquery-3.5.1.min.js"></script>

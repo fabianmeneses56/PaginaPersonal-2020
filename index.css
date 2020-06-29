@@ -40,14 +40,10 @@
     height: auto;
 }
 
-.barra{
+.barra,
+.pestaña2{
     background-color: #6D6E6A;
     height: 50px;
-}
-.pestaña2{
-   background-color: #6D6E6A;
-  height: 50px;
-  
 }
 .pestañaclara{
     background-color: #42433E;
@@ -103,6 +99,14 @@ justify-content: center;
     margin-left: 139px;
     font-size: 12px;
 }
+.iconoarriba{
+    font-family: websymbolsRegular;
+    position: relative;
+    color: white;
+    margin-top: -42px;
+    margin-left: 139px;
+    font-size: 12px;
+}
 .icon2{
     font-family: websymbolsRegular;
     position: relative;
@@ -134,11 +138,8 @@ justify-content: center;
     margin-top: 40px; 
 }
 #info-personal{
- 
     height: auto;
     margin-top: 50px;
-   
-  
 }
 .barra_numeros{
 height: auto;
@@ -149,16 +150,12 @@ color: #90918B;
 .barra_numeros ul{
     list-style: none;
 }
-.dos{
+.dos,
+#todo{
 height: auto;
 background-color:#282923;
 
 }
-#todo{
-    height: auto;
-    background-color:#282923;
-}
-
 .blu{
     margin: 0px auto;
     text-align: center;
@@ -184,25 +181,6 @@ background-color:#282923;
 }
 .blu2 h1{
     font-size: 30px;
-    position: relative;
-}
-.blu2 h1 span{
-    
-    position: absolute;
-    right: 0;
-    width: 0;
-    border-left: 1px solid white;
-    background: black;
-  /*   background-image: url(./img/imgPrincipal-min.jpg); */
-    animation:maquina 3s infinite alternate steps(11);
-}
-@keyframes maquina{
-    from{
-        width: 100%;
-    }
-    to{
-        width: 0;
-    }
 }
 .escritura{
     position: relative; 
@@ -288,6 +266,9 @@ background-color:#282923;
 }
 .card:hover{
     box-shadow: 0 0 10px #EC2658;
+}
+.proyectos .card{
+    height: 400px;
 }
  .tecnologias img:hover,
 .tecnologias2 img:hover,
@@ -426,12 +407,6 @@ height: 222px;
     animation-iteration-count: infinite;
     
 }
-.animacionFoto{
-    animation:rotateInUpLeft;
-    animation-duration: 1s;
- 
- 
-}
 .fotoensa{
     opacity: 0;
     animation:flipOutY;
@@ -500,4 +475,114 @@ z-index:2000;
 }
 .barra_baja{
     margin-left: 56px;
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width:1250px){
+    .icon{
+        margin-left: 126px;
+        font-size: 9px;
+        margin-top: -39px;
+    }
+    .icon2{
+        font-size: 15px;
+    }
+    .icon3{
+        margin-left: 126px;
+        font-size: 9px;
+        margin-top: -39px;
+    }
+    .pestaña h2{
+        font-size: 15px;
+    }
+    .pestañaclara h2{
+        font-size: 15px;
+    }
+    .proyectos .card{
+        height: 453px;
+    }
+    .res_img_Card2{
+        height: 222px;
+    }
+    #menu a{
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    
+}
+@media(max-width:1190px){
+#menu a{
+    margin-left: 10px;
+    font-size: 13px;
+}
+.iconos_lateral{
+    width: 15px;
+    height: 10px;
+}
+.back-to-top .icon .animacionTop{
+    font-size: 13px;
+}
+}
+@media(max-width:1000px){
+    .proyectos .card{
+        height: 415px;
+    }
+    .icon{
+        margin-left: 102px;
+        font-size: 9px;
+        margin-top: -39px;
+    }
+    .icon3{
+        margin-left: 102px;
+        font-size: 9px;
+        margin-top: -39px;
+    }
+    #menu li{
+        margin-top: 18px;
+    }
+    .iconos_lateral{
+        display: none;
+    }
+}
+@media(max-width:874px){
+    .pestaña h2{
+        font-size: 13px;
+    }
+    .pestañaclara h2{
+        font-size: 13px;
+    }
+    .icon{
+        margin-left: 88px;
+        font-size: 9px;
+        margin-top: -40px;
+    }
+    .icon3{
+        margin-left: 88px;
+        font-size: 9px;
+        margin-top: -40px;
+    }
+    .proyectos .card{
+    width: 100%;
+       
+    }
+    .circulo>img{
+        width: 250px;
+        height: 300px;
+    }
+    .back-to-top .icon .animacionTop{
+        font-size: 9px;
+    }
+    #menu a{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .redes{
+        padding: 0;
+        margin-top: 35px;
+    }
+}
+@media(max-width:874px){
+
 }

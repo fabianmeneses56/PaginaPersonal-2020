@@ -69,6 +69,7 @@
     font-family: code;
     
 }
+
 #menu{
     margin-top: 40px;
 }
@@ -84,6 +85,10 @@ list-style: none;
 margin-top: 30px;
 align-items: center;
 justify-content: center;
+}
+.icono_personal{
+    width: 100%;
+    margin-top: 30px;
 }
 .iconos_lateral{
     width: 20px;
@@ -357,6 +362,7 @@ height: 222px;
 .margen_tecnologia{
     margin-top: 50px;
 }
+
 .separador{
     color: #EC2658;
    
@@ -476,7 +482,76 @@ z-index:2000;
 .barra_baja{
     margin-left: 56px;
 }
-
+.res_co_1 img{
+    padding: 40px;
+}
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #EBEDEF; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    font-family: code;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #EC2658;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #EBEDEF;
+    color: #A4A5A7;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  .navbar{
+      padding: 0 !important;
+  }
 
 /* RESPONSIVE */
 
@@ -583,6 +658,163 @@ z-index:2000;
         margin-top: 35px;
     }
 }
-@media(max-width:874px){
+@media(max-width:767.98px){
+.lateral{
+    position: absolute !important;
+    height: 260px;
+}
+#menu li{
+    float: left;
+    margin-left: 11px;
+}
+#menu a{
+    font-size: 20px;
+}
+.iconlateral{
+    margin-left: 10px;
+}
+.m-proyectos{
+    margin-left: 130px !important;
+}
+.blu h1{
+    font-size: 20px;
+}
+.blu2 h1{
+    font-size: 20px;
+}
+.barra_numeros{
+    margin-top: 180px;
+}
+.dos{
+    margin-top: 268px;   
+}
+#contenido{
+    height: 600px;
+}
+#conocimientos .container{
+    padding-right: 0;
+    padding-left: 0;
+   
+   
+}
+.tecnologias img{
+    height: 80%;
+    width: 80%;
+    margin: 0px auto;
+}
+.titulo{
+   text-align: center;
+}
+.tecnologias2 img{
+    height: 70%;
+    width: 70%;
+    margin: 0px auto;
+}
+.tecnologiasReact img{
+    height: 70%;
+    width: 70%;
+    margin: 0px auto;
+}
+.margen_tecnologia{
+    margin-top: 0;
+}
+.titulos_conocimientos{
+    font-size: 20px;
+    text-align: center;
+}
+.proyectos .card{
+    width: 70%;
+       margin: 0px auto;
+    }
+.barra_baja{
+    margin-left: 90px;
+}
+.tecnologias2{
+    margin: 0;
+}
+.comentarioSaberes{
+    margin-top: 50px;
+}
+.titulos_conocimientos{
+    font-size: 26px;
+}
+.res_co_1 img{
+    padding: 10px;
+}
+.icono_personal{
+    width: 30%;
+   /*  float: left; */
+   margin: 0px auto;
+   margin-left: 163px;
+margin-top: 10px;
 
+}
+#menu{
+    margin-top: 5px;
+}
+}
+@media (max-width: 575.98px) { 
+    
+    .barra_numeros{
+        margin-top: 230px;
+    }
+    
+    #contenido{
+        margin-top: 0;
+    }
+    .dos{
+        margin-top: 0;
+       padding: 0;
+       margin-top: 0;
+          padding-right: 0 !important; 
+        padding-left: 0 !important;   
+    }
+    .blu{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        margin-top: 200px;
+    }
+    .blu h1,
+    .blu2 h1{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 25px;
+    }
+    .res_co_1{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .barra_baja{
+        margin-left: 15%;
+    }
+    .certificado img{
+        width: 80%;
+    }
+    .proyectos .res_tamaño_card3{
+        height: 442px;
+    }
+    .code1 h2{
+        font-size: 12px;
+    }
+    .proyectos .card{
+        width: 80%;
+    }
+    
+}
+@media(max-width: 370px){
+    .blu h1,
+    .blu2 h1{
+       
+        font-size: 20px;
+       
+    }
+    .titulos_conocimientos{
+        font-size: 20px;
+    }
+    .certificado img{
+        width: 95%;
+    }
+    .code1 h2{
+        font-size: 10px;
+    }
 }
